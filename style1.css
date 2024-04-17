@@ -32,6 +32,7 @@ a.btn-primary:hover{
 }
 p{
     color: #ffffff8e;
+    /* display: block; */
 }
 
 
@@ -56,9 +57,153 @@ span{
 .logo-list{
     gap: 10%;
     display:flex;
-    margin-right: 5px;
+    /* margin: auto; */
+   /* justify-content: center; */
     margin-top: 40px;
-    /* align-self: center; */
+    width: 100%
 
     
 }
+.card{
+    border: none;
+}
+.card h3{
+    font-weight: bold;
+}
+.div h3{
+    margin-right: 50px;
+}
+.row h3{
+    
+        float: left;
+        margin-left: 20px;
+        
+}
+.row p{
+    
+    float: left;
+    /* margin-right: 20px; */
+}
+.row span{
+    
+    float: left;
+    margin-right: 20px;
+}
+
+.container-1{
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.container-1 p{
+font-family: Gilroy;
+font-size: 19px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: -0.20000000298023224px;
+text-align: left;
+width: 80%;
+
+}
+
+
+.container-2{
+    width: 90%;
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-2 p{
+font-family: Gilroy;
+font-size: 19px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: -0.20000000298023224px;
+text-align: left;
+width: 80%;
+} 
+.container-2 img{
+    width: 80%;
+}
+.container-3{
+    background-color: rgba(250, 247, 248, 0.811);
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.container-3 p{
+    font-family: Gilroy;
+font-size: 19px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: -0.20000000298023224px;
+text-align: left;
+width: 80%;
+
+}
+
+.container-4 h2{
+    text-align: center;
+}
+
+.container-4 p{
+    text-align: center;
+    margin-left: 10%;
+    width: 80%;
+    text-wrap: auto;
+    font-family: Gilroy;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.20000000298023224px;
+    overflow: hidden;
+    
+    
+ }
+ h1 {
+    color: green;
+}
+       
+/* toggle in label designing */
+.toggle {
+    position : relative ;
+    display : inline-block;
+    width : 100px;
+    height : 52px;
+    background-color: rgb(167, 161, 161);
+    border-radius: 30px;
+    border: 2px solid gray;
+}
+       
+/* After slide changes */
+.toggle:after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 60%;
+    background-color: gray;
+    top: 1px; 
+    left: 1px;
+    transition:  all 0.5s;
+}
+       
+
+/* Checkbox checked effect */
+.checkbox:checked + .toggle::after {
+    left : 49px; 
+}
+       
+/* Checkbox checked toggle label bg color */
+.checkbox:checked + .toggle {
+    background-color: green;
+}
+       
+/* Checkbox vanished */
+.checkbox { 
+    display : none;
+}
+
+
